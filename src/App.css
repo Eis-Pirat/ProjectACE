@@ -1,0 +1,30 @@
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+
+  margin-top: 100px; /* Space for the header */
+  margin-bottom: 40px; /* Space for the footer */
+  padding: 20px;
+  flex: 1;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+.main-content.with-sidebar {
+  margin-left: 250px; /* Adjust this width to match your sidebar */
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  height: 100vh;
+  position: fixed;
+  top: 60px; /* Adjust for header height */
+  left: 0;
+  border-right: 1px solid #ddd;
+}

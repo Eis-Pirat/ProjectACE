@@ -1,0 +1,95 @@
+/* Dashboard Container */
+.dashboard-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Title */
+  .dashboard-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Create Project Button */
+  .dashboard-container button {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Project List */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Project Name */
+  li h3 {
+    font-size: 18px;
+    color: #007bff;
+    margin: 0;
+  }
+  
+  /* Action Buttons */
+  li button {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  li button:hover {
+    background-color: #218838;
+  }
+  
+  li button:first-of-type {
+    background-color: #17a2b8;
+  }
+  
+  li button:first-of-type:hover {
+    background-color: #117a8b;
+  }
+  
